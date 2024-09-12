@@ -15,8 +15,7 @@ Ensure you have Python 3.x installed. You can download Python [here](https://www
 Steps:
 
 1: Clone the Repository
-  ''' git clone https://github.com/elg3636/habit_tracker2.git 
-  '''
+  ```git clone https://github.com/elg3636/habit_tracker2.git```
 
 2: Navigate to the app directory:
   ''' cd habit_tracker 2
