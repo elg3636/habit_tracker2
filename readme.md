@@ -1,10 +1,10 @@
 # Habit Tracker App
-## Overview
-The Habit Tracker App is a command-line tool designed to help users create, track, and analyze their habits. It allows users to add daily or weekly habits, mark them as completed, and analyze their progress over time.
+## Introduction
+The Habit Tracker App is a command-line tool designed to help users create, track, and analyze their habits. It allows users to add daily or weekly habits, mark them as completed, and analyze their progress.
 
 ## Features
 Create Habits: Add new habits with a specified frequency (daily or weekly).
-Complete Habits: Mark habits as completed and track their streaks.
+Complete Habits: Mark habits as completed.
 Analyze Habits: View detailed statistics on habit streaks and progress.
 Delete Habits: Remove habits from the tracker.
 
@@ -43,7 +43,7 @@ Steps:
 ## Usage
 The Habit Tracker App provides various command-line operations to manage habits.
 
-## CLI Commands
+### CLI Commands
 
 | Command | Description |
 | --- | --- |
@@ -53,8 +53,27 @@ The Habit Tracker App provides various command-line operations to manage habits.
 | `analyze_habits [frequency]` | Provides an analysis of all habits or filters by frequency (optional).|
 | `analyze_habit <name>` | Provides detailed analysis for the specified habit (e.g., longest streak).|
 
+### Examples:
 
-  
-
+1. Add a Habit:
+   ```
+   python clinterface.py add_habit "Jog" "daily"
+   ```
+2. Complete a Habit:
+   ```
+    python clinterface.py habit_completed "Jog"
+   ```
+3. Analyze a specific habit:
+   ```
+    python clinterface.py analyze_habit "Jog"
+   ```
+4. Analyze all of the habits:
+   ```
+    python clinterface.py analyze_habits
+   ```
+5. Delete a Habit:
+   ```
+   python clinterface.py delete_habit "Jog" "daily"
+   ```
 
 
