@@ -40,6 +40,18 @@ Steps:
   python clinterface.py
   ```
 
+## Usage
+The Habit Tracker App provides various command-line operations to manage habits.
+
+## CLI Commands
+
+| Command | Description |
+| --- | --- |
+| `add_habit <name> <frequency>` | Adds a new habit with the specified frequency (e.g., daily or weekly).|
+| `habit_completed <name>` | Marks the specified habit as completed.|
+| `delete_habit <name>` | Deletes the specified habit.|
+| `analyze_habits [frequency]` | Provides an analysis of all habits or filters by frequency (optional).|
+| `analyze_habit <name>` | Provides detailed analysis for the specified habit (e.g., longest streak).|
 
 
   
