@@ -101,5 +101,7 @@ The tests cover creating and completing habits, the saving and retrieving of hab
 
 ### Testing files
 Below is a summary of what each test file specfically covers:
-+ test_habit.py : 
++ `test_habit.py`: Tests habit creation, habit completion, and streaks.
++ `test_database.py`: Tests saving, retrieving, and deleting habits in the database.
++ `test_analysis.py`: Tests the analysis functions
 
