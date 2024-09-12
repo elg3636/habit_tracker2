@@ -21,7 +21,7 @@ Ensure you have Python 3.x installed. You can download Python [here](https://www
 
 2: Navigate to the app directory:
   ```
-  cd habit_tracker 2
+  cd habit_tracker2
   ```
 3: Set Up a Virtual Environment: Create and activate a virtual environment to manage dependencies.
   ```
