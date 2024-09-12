@@ -76,4 +76,30 @@ The Habit Tracker App provides various command-line operations to manage habits.
    python clinterface.py delete_habit "Jog" "daily"
    ```
 
+## Testing instructions
+
+In order to ensure that the key components of the app are functioning properly, unit tests using pytest have been conducted. 
+The tests cover creating and completing habits, the saving and retrieving of habits and their completions from the database and the different functions of the analysis component.
+
+### Conducting the tests
+1. Install pytest using:
+   ```
+   pip install pytest
+   ```
+2. Run the tests using:
+   ```
+   pytest
+   ```
+3. For more detailed output of each test use:
+   ```
+   pytest -v
+   ```
+4. Run specific test file run the test specifying the file name (for example:)
+   ```
+   pytest test_habit.py
+   ```
+
+### Testing files
+Below is a summary of what each test file specfically covers:
++ test_habit.py : 
 
