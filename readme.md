@@ -20,8 +20,29 @@ Steps:
   ```
 
 2: Navigate to the app directory:
-  ''' cd habit_tracker 2
-  '''
+  ```
+  cd habit_tracker 2
+  ```
+3: Set Up a Virtual Environment: Create and activate a virtual environment to manage dependencies.
+  ```
+  python -m venv venv
+  source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+  ```
+4: Install Dependencies: Install the required Python packages using the following command:
+
+  ```
+  pip install -r requirements.txt
+  ```
+
+5: Run the App: You can start using the app by running:
+  ```
+  python clinterface.py
+  ```
+
+
+
+  
 
 
 
