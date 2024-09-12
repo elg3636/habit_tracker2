@@ -9,10 +9,10 @@ Analyze Habits: View detailed statistics on habit streaks and progress.
 Delete Habits: Remove habits from the tracker.
 
 ## Installation
-Prerequisites
+### Prerequisites:
 Ensure you have Python 3.x installed. You can download Python [here](https://www.python.org/downloads/).
 
-Steps:
+### Steps:
 
 1: Clone the Repository
   ```
