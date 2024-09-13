@@ -68,7 +68,7 @@ def test_daily_habit_4_weeks_db(db):
     
     # Retrieve the habit and check streak
     saved_habit = db.get_habit("Exercise")
-    # Print the completion dates for debugging
+    # Debugging: print completion dates to ensure the correct retrieval
     print(saved_habit.habit_completed_dates)
     # Check that the streak is correct for 28 days  
     assert saved_habit.habit_streak() == 28
