@@ -76,6 +76,28 @@ The Habit Tracker App provides various command-line comands to manage habits.
    python clinterface.py delete_habit "Jog" "daily"
    ```
 
+### Viewing data
+There are a few options to view that data in the database. 
+1. In the development of the app the VS code SQLite3 extension was used:
++ Install the SQLite extension
++ Then open the `database.py` file
++ The extension should then provide an interface directly to allow the viewing of the data
+
+2. If you are not using VS code, you can use the SQLite Command-Line tool.
++ Navigate to the project directory
++ Open the Command-Line tool using:
+  ```sqlite3 habits.db```
++ Run the commands using SQL (examples below:
+  + View tables:
+  ```
+  .tables
+  ```
+  + Query data from a table:
+  ```
+  SELECT * FROM Habits;
+  SELECT * FROM Completions;
+  ```
+
 ## Testing instructions
 
 In order to ensure that the key components of the app are functioning properly, unit tests using pytest have been conducted. 
